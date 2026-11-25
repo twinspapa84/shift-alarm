@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">교대 알람</string>
+    <string name="app_subtitle">1주 교대 · 평일 자동 복구 · 토요 특근</string>
+
+    <string name="home_this_week">이번 주 근무</string>
+    <string name="week_label">%1$s 근무</string>
+    <string name="home_next_week">다음 주: %1$s (%2$s)</string>
+    <string name="next_alarm_none">예약된 알람이 없습니다</string>
+    <string name="next_alarm">다음 알람  %1$s(%2$s) %3$s · %4$s</string>
+
+    <string name="set_week_day">이번 주를 주간으로</string>
+    <string name="set_week_night">이번 주를 야간으로</string>
+    <string name="week_reset_hint">교대가 실제로 바뀐 주에만 눌러 주세요. 이번 주를 기준으로 다시 계산합니다.</string>
+    <string name="week_set_toast">이번 주를 %1$s 주로 다시 잡았습니다</string>
+
+    <string name="sat_title">이번 주 토요일 특근</string>
+    <string name="sat_on">%1$s(%2$s) %3$s에 주간 알람이 울립니다</string>
+    <string name="sat_off">꺼짐 · 켜면 가장 가까운 토요일에 주간 알람이 울립니다</string>
+    <string name="sat_auto_reset">토요일이 지나면 자동으로 끄기</string>
+
+    <string name="day_title">주간 알람</string>
+    <string name="day_hint_on">주간 주 평일 %1$s에 울립니다. 야간 주에는 자동으로 꺼집니다.</string>
+    <string name="day_hint_off">꺼져 있습니다. 밤 22:00 자동 복구가 다시 켜 줍니다.</string>
+    <string name="night_title">야간 알람</string>
+    <string name="night_hint_on">야간 주 평일 %1$s에 울립니다.</string>
+    <string name="night_hint_off">꺼져 있습니다. 필요할 때 직접 켜세요.</string>
+
+    <string name="restore_title">매일 밤 자동 복구</string>
+    <string name="restore_hint">매일 %1$s에 내일 근무를 확인해서 주간 알람을 다시 켭니다.</string>
+    <string name="restore_off_hint">자동 복구가 꺼져 있습니다. 알람을 직접 켜고 끄셔야 합니다.</string>
+
+    <string name="permission_title">필수 설정</string>
+    <string name="permission_desc">세 가지를 허용해야 잠든 사이에도 알람이 확실히 울립니다.</string>
+    <string name="permission_exact_title">정확한 알람 권한</string>
+    <string name="permission_exact_desc">정확한 시각에 울리려면 필요합니다.</string>
+    <string name="permission_notif_title">알림 권한</string>
+    <string name="permission_notif_desc">알람 화면과 소리를 보여 주려면 필요합니다.</string>
+    <string name="permission_battery_title">배터리 최적화 예외</string>
+    <string name="permission_battery_desc">폰이 앱을 재우지 않도록 예외로 두세요.</string>
+    <string name="permission_allow">허용</string>
+    <string name="permission_all_ok">필수 설정이 모두 완료되었습니다.</string>
+
+    <string name="test_alarm_button">테스트 알람 울려 보기 (1분 뒤)</string>
+    <string name="test_alarm_toast">1분 뒤에 테스트 알람이 울립니다. 화면을 잠그고 기다려 보세요.</string>
+
+    <string name="footer_note">알람은 폰이 잠겨 있어도 울립니다. 알람을 끄면 다음 날 밤 22:00에 자동으로 다시 켜집니다. 폰을 재부팅해도 예약이 자동으로 복구됩니다.</string>
+
+    <string name="alarm_subtitle">일어날 시간입니다</string>
+    <string name="alarm_dismiss">해제</string>
+    <string name="alarm_snooze">5분 후 다시 울림</string>
+    <string name="alarm_snooze_note">해제하지 않으면 10분 뒤 저절로 멈춥니다.</string>
+    <string name="alarm_snoozed_toast">5분 뒤에 다시 울립니다</string>
+    <string name="alarm_date">%1$d/%2$d(%3$s)</string>
+
+    <string name="channel_alarm_name">알람 울림</string>
+    <string name="channel_alarm_desc">교대 알람이 울릴 때 표시되는 알림</string>
+    <string name="notification_yes">해제</string>
+    <string name="notification_snooze">5분 후 다시</string>
+    <string name="notification_body">해제를 누르거나 5분 후 다시 울릴 수 있습니다.</string>
+    <string name="notification_snooze_title">%1$s (다시 울림)</string>
+
+    <string name="time_dialog_day">주간 알람 시각</string>
+    <string name="time_dialog_night">야간 알람 시각</string>
+    <string name="time_dialog_restore">자동 복구 시각</string>
+</resources>
