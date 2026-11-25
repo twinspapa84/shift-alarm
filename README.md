@@ -5,7 +5,7 @@
 
 **[APK 다운로드 (v1.0.0 · Android 8.0 이상)](https://github.com/twinspapa84/shift-alarm/releases/latest/download/ShiftAlarm-v1.0.0.apk)** · [릴리즈 노트](https://github.com/twinspapa84/shift-alarm/releases/latest)
 
-<img src="docs/assets/preview.png" alt="앱 메인 화면" width="320">
+<img src="docs/assets/screen.png" alt="앱 메인 화면" width="300">
 
 ## 주요 기능
 
