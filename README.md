@@ -3,7 +3,7 @@
 1주 단위로 주간·야간이 바뀌는 교대 근무자를 위한 안드로이드 알람 앱입니다.
 평일에 알람을 꺼 두어도 **매일 밤 22:00에 내일 근무를 확인해 주간 알람을 다시 켜 주고**, 토요 특근이 있으면 스위치 하나로 토요일 알람까지 잡아 줍니다.
 
-**[APK 다운로드 (v1.0.0 · Android 8.0 이상)](https://github.com/twinspapa84/shift-alarm/releases/latest)** · [릴리즈 노트](https://github.com/twinspapa84/shift-alarm/releases/latest) · [웹 안내 페이지](https://twinspapa84.github.io/shift-alarm/) (GitHub Pages를 켠 경우)
+**[APK 다운로드 (v1.0.0 · Android 8.0 이상)](https://github.com/twinspapa84/shift-alarm/releases/latest/download/ShiftAlarm-v1.0.0.apk)** · [릴리즈 노트](https://github.com/twinspapa84/shift-alarm/releases/latest)
 
 <img src="docs/assets/preview.png" alt="앱 메인 화면" width="320">
 
@@ -89,14 +89,11 @@
 python3 tools/verify.py          # 매니페스트·소스·문자열·레이아웃 정적 검증
 ```
 
-`.github/workflows/build-apk.yml`은 `main` 브랜치에 푸시하거나 Actions 탭에서 수동 실행하면 단위 테스트를 돌리고 APK를 아티팩트로 올립니다.
-
 ### 프로젝트 구조
 
 ```
 shift-alarm/
-├─ .github/workflows/build-apk.yml       # 푸시·수동 실행 시 테스트 + APK 아티팩트
-├─ docs/index.html                       # 다운로드 안내 페이지 (GitHub Pages)
+├─ docs/index.html                       # 다운로드 안내 페이지 (GitHub Pages용)
 ├─ app/src/main/java/io/github/twinspapa84/shiftalarm/
 │  ├─ core/ShiftConfig.kt                # 설정 데이터 모델
 │  ├─ core/ShiftEngine.kt                # 교대 계산·다음 알람·자동 복구 (안드로이드 의존 없음)
